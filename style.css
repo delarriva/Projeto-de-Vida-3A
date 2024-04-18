@@ -1,0 +1,9 @@
+:root {
+    --cor-base: #1E1E1E;
+    --verde: #6FFF57;
+    --branco: #ffffff;
+    --botao-ativo: #918a8a;
+    --botao-inativo: rgba(58, 55, 94, 0.5);
+    --texto-fundo: rgba(50, 55, 94, 0.3);
+  }
+  
