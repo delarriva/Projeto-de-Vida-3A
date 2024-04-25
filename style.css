@@ -8,6 +8,13 @@
   }
 
   body{
-    background-color: ;
+    background-color: var(--cor-base);
+    color: var(--branco);
+    font-family: 'Chacara Petch' , sans-serif;
   }
-  
+
+  .conteude-princial{
+    display: flex;
+    flex-direction: column;
+    
+  }
