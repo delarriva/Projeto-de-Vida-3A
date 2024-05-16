@@ -1,20 +1,21 @@
-:root {
-    --cor-base: #1E1E1E;
-    --verde: #6FFF57;
-    --branco: #ffffff;
-    --botao-ativo: #918a8a;
-    --botao-inativo: rgba(58, 55, 94, 0.5);
-    --texto-fundo: rgba(50, 55, 94, 0.3);
-  }
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hover.css">
+    <title>Meus objetivos do ano</title>
+</head>
+<body>
+    <section class="conteudo-principal">
+        <h2 class="titulo-principal">Meus objetivos do ano_</h2>
+        <div class="botoes">
+            <button class="botao botao--first" id="hover">Estudar cursos no alura</button>
+            <button class="botao">Criar projetos em Javascript</button>
+            <button class="botao">Criar um portfólio</button>
+            <button class="botao botao--last">Criar um currículo</button>
+        </div>
 
-  body{
-    background-color: var(--cor-base);
-    color: var(--branco);
-    font-family: 'Chacara Petch' , sans-serif;
-  }
-
-  .conteude-princial{
-    display: flex;
-    flex-direction: column;
-    
-  }
+    </secti
